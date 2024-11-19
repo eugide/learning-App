@@ -34,7 +34,9 @@
 // export default App;
 
 import Hero from './Component/Hero'
+import HomeCards from './Component/HomeCards'
 import Navbar from './Component/Navbar'
+
 
 
 function App() {
@@ -42,6 +44,7 @@ function App() {
     <div>
       <Navbar />
       <Hero />
+      <HomeCards />
     </div>
   )
 }
